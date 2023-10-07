@@ -2,6 +2,7 @@
 This is a simple Python code to calculate electricity bill using Streamlit.
 
 ## Preview
+
 <div align="center">
 <img src = "assets/Preview1.png"  width="75%" height="75%"/>
 </div>
