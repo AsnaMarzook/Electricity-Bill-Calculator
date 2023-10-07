@@ -1,6 +1,15 @@
 # Electricity-Bill-Calculator
 This is a simple Python code to calculate electricity bill using Streamlit.
 
+## Preview
+<div align="center">
+<img src = "assets/Preview1.png"  width="75%" height="75%"/>
+</div>
+<hr>
+<div align="center">
+<img src = "assets/Preview2.png"  width="75%" height="75%"/>
+</div>
+
 ## How to use:
 Clone this repository to your local machine.
 Install the required dependencies:
