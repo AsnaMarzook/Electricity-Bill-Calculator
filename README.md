@@ -10,7 +10,7 @@ pip install streamlit
 
 Run the following command to start the Streamlit app:
 ```
-streamlit run app.py
+streamlit run main.py
 ```
 
 Enter the number of units consumed and any outstanding value.
@@ -29,12 +29,12 @@ Total bill amount: 1500
 
 The electricity bill calculation is based on the following rates:
 
-- 0-30 units: ₹400 per unit
-- 31-60 units: ₹550 per unit
-- 61-90 units: ₹650 per unit
-- 91-120 units: ₹1500 per unit
-- 121-180 units: ₹1500 per unit
-- 181+ units: ₹2000 per unit
+- 0-30 units: Rs.400 per unit
+- 31-60 units: Rs.550 per unit
+- 61-90 units: Rs.650 per unit
+- 91-120 units:  Rs.1500 per unit
+- 121-180 units:  Rs.1500 per unit
+- 181+ units:  Rs.2000 per unit
 
   
 The outstanding value is added to the total bill amount.
