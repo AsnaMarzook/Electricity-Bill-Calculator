@@ -25,10 +25,14 @@ def calculator(no_units):
     elif no_units>180:
       return no_units*75,2000
 
-energy_charge,fixed_charge=total_value(calculator(no_units),int(outstanding))
+energy_charge,fixed_charge=calculator(no_units)
+
+total_outstanding=total_value(energy_charge+fixed_charge,outstanding)
 
 if streamlit.button("Calculate"):
     streamlit.write(f"Energy Charge : {energy_charge}")
     streamlit.write(f"Fixed Charge : {fixed_charge}")
+    streamlit.write(f"Total Charge : {total_outstanding}")
+
 else:
     pass
