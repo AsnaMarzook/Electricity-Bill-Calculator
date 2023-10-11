@@ -32,7 +32,7 @@ if streamlit.button("Calculate"):
     total_outstanding=total_value(energy_charge+fixed_charge,outstanding)
 
 
-    streamlit.write(f"Total Charges : {total_outstanding}")
+    streamlit.subheader(f"Total Charges : {total_outstanding}")
     streamlit.write()
 
     streamlit.write(f"Energy Charge : {energy_charge}")
