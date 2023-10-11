@@ -1,5 +1,8 @@
 # Electricity-Bill-Calculator
-This is a simple Python code to calculate electricity bill using Streamlit.
+This is a simple Python code to calculate electricity bill using Streamlit based on the number of units consumed..
+
+## About
+The Electricity Bill Calculator is a simple yet effective tool that allows users to estimate their electricity bills. It takes the number of units consumed and any outstanding value into account to provide a detailed breakdown of charges, including energy charges and fixed charges.
 
 ## Preview
 
@@ -23,31 +26,11 @@ Run the following command to start the Streamlit app:
 streamlit run main.py
 ```
 
-Enter the number of units consumed and any outstanding value.
-Click the "Calculate" button.
-The total bill amount will be displayed below.
+- Enter the number of units consumed in the text input field.
+- Enter any outstanding value (if applicable).
+- Click the "Calculate" button to generate the bill breakdown.
+- The app will display the total charges, energy charge, fixed charge, and outstanding value.
 
-**Example:**
-
-Number of units: 100
-
-Outstanding value: 500
-
-Total bill amount: 1500
-
-### Notes:
-
-The electricity bill calculation is based on the following rates:
-
-- 0-30 units: Rs.400 per unit
-- 31-60 units: Rs.550 per unit
-- 61-90 units: Rs.650 per unit
-- 91-120 units:  Rs.1500 per unit
-- 121-180 units:  Rs.1500 per unit
-- 181+ units:  Rs.2000 per unit
-
-  
-The outstanding value is added to the total bill amount.
 
 ## Contribution:
 
