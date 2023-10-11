@@ -12,20 +12,23 @@ def calculator(no_units):
   no_units = int(no_units)
   if no_units<60: 
     if no_units>0 and no_units<=30:
-      return no_units*30
+      return no_units*10,150
     elif no_units>30 and no_units<=60:
-      return no_units*60
+      return no_units*25,300
   else:
     if no_units>60 and no_units<=90:
-      return no_units*90
+      return no_units*35,400
     elif no_units>90 and no_units<=120:
-      return no_units*480
+      return no_units*50,1000
     elif no_units>120 and no_units<=180:
-      return no_units*480
+      return no_units*50,1500
     elif no_units>180:
-      return no_units*480
+      return no_units*75,2000
+
+energy_charge,fixed_charge=total_value(calculator(no_units),int(outstanding))
 
 if streamlit.button("Calculate"):
-    streamlit.write(total_value(calculator(no_units),int(outstanding)))
+    streamlit.write(f"Energy Charge : {energy_charge}")
+    streamlit.write(f"Fixed Charge : {fixed_charge}")
 else:
     pass
